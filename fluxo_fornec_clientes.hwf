@@ -282,8 +282,8 @@
       <embeddedimages>
       </embeddedimages>
       <parallel>N</parallel>
-      <xloc>992</xloc>
-      <yloc>144</yloc>
+      <xloc>464</xloc>
+      <yloc>304</yloc>
       <attributes_hac/>
     </action>
   </actions>
@@ -331,6 +331,20 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
+      <from>Pedidos_fornecedores.hpl</from>
+      <to>Clientes 2</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>fornecedores.hpl</from>
+      <to>Clientes 2</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
       <from>clientes.hpl</from>
       <to>Clientes 2</to>
       <enabled>Y</enabled>
@@ -338,7 +352,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Clientes 2</from>
+      <from>clientes.hpl</from>
       <to>Success</to>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
