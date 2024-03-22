@@ -1,0 +1,31 @@
+{
+  "rdbms": {
+    "MYSQL": {
+      "databaseName": "cliente_inpress",
+      "pluginId": "MYSQL",
+      "accessType": 0,
+      "hostname": "mysql4bi.publicloud.com.br",
+      "password": "Encrypted 334048eaf68cbc5ec2caa3b20a9977f6c7b78d",
+      "pluginName": "MySQL",
+      "port": "3306",
+      "driverClassName": "Mysql 8+",
+      "attributes": {
+        "SUPPORTS_TIMESTAMP_DATA_TYPE": "Y",
+        "QUOTE_ALL_FIELDS": "Y",
+        "STREAM_RESULTS": "N",
+        "EXTRA_OPTION_MYSQL.zeroDateTimeBehaviorValue": "CONVERT_TO_NULL",
+        "EXTRA_OPTION_MYSQL.useCursorFetch": "true",
+        "EXTRA_OPTION_MYSQL.defaultFetchSize": "500",
+        "SUPPORTS_BOOLEAN_DATA_TYPE": "Y",
+        "FORCE_IDENTIFIERS_TO_LOWERCASE": "N",
+        "PRESERVE_RESERVED_WORD_CASE": "Y",
+        "SQL_CONNECT": "",
+        "FORCE_IDENTIFIERS_TO_UPPERCASE": "N",
+        "PREFERRED_SCHEMA_NAME": ""
+      },
+      "manualUrl": "",
+      "username": "inpress_bi"
+    }
+  },
+  "name": "publi"
+}
